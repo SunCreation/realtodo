@@ -1,0 +1,30 @@
+# Swift Package Manager / build
+.build/
+.swiftpm/
+DerivedData/
+*.xcodeproj/xcuserdata/
+*.xcworkspace/xcuserdata/
+
+# macOS
+.DS_Store
+
+# Secrets & local credentials (never commit)
+*.env
+.env*
+credentials.json
+*.pem
+*.p12
+*.key
+*.mobileprovision
+
+# Local databases
+*.sqlite
+*.sqlite3
+*.db
+
+# Tooling / editor state (not part of the project)
+.omc/
+.zamia/
+.zamia-snapshots/
+.sisyphus/
+cache/
